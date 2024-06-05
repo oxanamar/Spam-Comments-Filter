@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: beige;
+}
+
+.container_main {
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#name,
+#avatar {
+  width: 256px;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.7rem;
+  margin-top: 0.2rem;
+}
+
+#comment {
+  margin-top: 0.2rem;
+  margin-bottom: 1.3rem;
+}
+
+label {
+  color: rgba(6, 6, 70, 0.688);
+}
+
+.chat {
+  padding-bottom: 2.7rem;
+}
+
+h1 {
+  color: rgba(6, 6, 70, 0.688);
+}
+
+h1,
+h3 {
+  padding-bottom: 1.5rem;
+}
+
+input {
+  border: dotted 2px rgba(6, 6, 70, 0.688);
+}
+
+textarea {
+  border: dotted 2px rgba(6, 6, 70, 0.688);
+}
+
+button {
+  background-color: rgba(6, 6, 70, 0.688);
+  color: #fff;
+  padding: 0.5rem 0.7rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin: 20px 200px; */
+}
+
+button:hover {
+  background-color: rgba(57, 57, 192, 0.522);
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  padding-bottom: 1rem;
+}
+
+#nameoutput,
+#commentoutput {
+  color: orangered;
+}
