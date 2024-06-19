@@ -12,6 +12,13 @@
       <div class="container">
         <div class="container__one">
           <h3>Leave your comment</h3>
+          <div class="checkbox">
+            <p class="checkbox_question">Show your First Name?</p>
+            <label for="check" class="check">Yes</label>
+            <input type="checkbox" name="check" id="yes">
+            <label for="check" class="check">No</label>
+            <input type="checkbox" name="check" id="no">
+            </div>
           <form action="#">
             <label for="name">First Name:</label><br />
             <input type="text" id="name" name="name" /><br />
@@ -30,6 +37,7 @@
         </div>
         <div class="container__two">
           <h3 class="chat">Chat</h3>
+          <div class="container_output">
           <div class="info">
             <img
               src=""
@@ -37,9 +45,10 @@
               id="avataroutput"
             />
             <div id="nameoutput"></div>
-          </div>
           <div id="commentoutput"></div>
         </div>
+        <div class="date" id="date"></div>
+      </div>
       </div>
     </div>
     <script src="index.js"></script>

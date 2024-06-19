@@ -1,6 +1,7 @@
 const nameOutput = document.querySelector("#nameoutput");
 const avatarOutput = document.querySelector("#avataroutput");
 const commentOutput = document.querySelector("#commentoutput");
+const dateOutput = document.querySelector("#date");
 const button = document.querySelector("#button");
 
 function inputInfo() {
@@ -15,10 +16,13 @@ function inputInfo() {
   console.log(name4);
 
   let checkSpam = comment.replace(/viagra/gi, "***");
+  let date = new Date();
+  console.log(date);
 
   nameOutput.textContent = name4;
   avatarOutput.src = avatar;
   commentOutput.textContent = checkSpam;
+  dateOutput.textContent = date;
 }
 
 button.addEventListener("click", inputInfo);

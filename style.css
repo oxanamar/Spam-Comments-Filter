@@ -66,6 +66,11 @@ button:hover {
   background-color: rgba(57, 57, 192, 0.522);
 }
 
+.container_output {
+  display: flex;
+  justify-content: space-between;
+}
+
 img {
   width: 30%;
   height: 30%;
@@ -75,4 +80,23 @@ img {
 #nameoutput,
 #commentoutput {
   color: orangered;
+}
+
+.checkbox {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.check {
+  padding-left: 1rem;
+  color: black;
+  font-family: cursive;
+}
+
+.checkbox_question {
+  font-family: cursive;
+}
+
+input[type="checkbox"] {
+  margin-left: 0.2rem;
 }
