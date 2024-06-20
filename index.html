@@ -12,19 +12,19 @@
       <div class="container">
         <div class="container__one">
           <h3>Leave your comment</h3>
-          <div class="checkbox">
+          <div class="container_checkbox">
             <p class="checkbox_question">Show your First Name?</p>
-            <label for="check" class="check">Yes</label>
-            <input type="checkbox" name="check" id="yes">
-            <label for="check" class="check">No</label>
-            <input type="checkbox" name="check" id="no">
+            <label for="yes" class="label">Yes</label>
+            <input type="checkbox" name="show-name" id="yes" class="checkbox">
+            <label for="no" class="label">No</label>
+            <input type="checkbox" name="show-name" id="no" class="checkbox"> 
             </div>
-          <form action="#">
-            <label for="name">First Name:</label><br />
-            <input type="text" id="name" name="name" /><br />
+          
+            <label for="name" id="label-name">First Name:</label><br />
+            <input type="text" id="name"  /><br />
             <label for="avatar">Input the link of your profile picture:</label
             ><br />
-            <input type="avatar" id="avatar" name="avatar" /><br />
+            <input type="text" id="avatar" /><br />
             <label for="comment">Leave your comment:</label><br />
             <textarea
               name="comment"
@@ -32,19 +32,20 @@
               cols="30"
               rows="10"
             ></textarea>
-          </form>
-          <button id="button"">Send</button>
+          <br>
+          <button id="button">Send</button>
         </div>
         <div class="container__two">
           <h3 class="chat">Chat</h3>
+    
           <div class="container_output">
           <div class="info">
             <img
               src=""
-              alt="The profile picture should be here"
               id="avataroutput"
+              class="image_avatar"
             />
-            <div id="nameoutput"></div>
+            <div id="nameoutput" class="name_output"></div>
           <div id="commentoutput"></div>
         </div>
         <div class="date" id="date"></div>

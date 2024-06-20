@@ -82,21 +82,26 @@ img {
   color: orangered;
 }
 
-.checkbox {
+.container_checkbox {
   display: flex;
   padding-bottom: 1rem;
 }
 
-.check {
-  padding-left: 1rem;
-  color: black;
-  font-family: cursive;
-}
-
 .checkbox_question {
   font-family: cursive;
+  padding-right: 1rem;
+  color: rgba(6, 6, 70, 0.688);
+}
+
+.label {
+  font-family: cursive;
+  padding-right: 0.3rem;
 }
 
 input[type="checkbox"] {
-  margin-left: 0.2rem;
+  margin-right: 1rem;
+}
+
+.hide {
+  display: none;
 }
